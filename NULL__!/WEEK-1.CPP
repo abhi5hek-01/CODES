@@ -11,3 +11,16 @@ int main()
     // return 0 : program is successfully execute
     return 0;
 }
+
+// ! TAKING INPUT AND PRINT 
+#include<iostream>
+using namespace std;
+int main()
+{
+    int variable;
+    cout<<"enter the value in variable : ";
+    // take input by cin;
+    cin>>variable;
+    // print anything by cout
+    cout<<variable;
+}
