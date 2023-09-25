@@ -1,4 +1,4 @@
-// ! --> INTRODUCTION TO CHARACTER ARRAY
+// ! --> INTRODUCTION TO CHARACTER ARRAY [ STATIC IN NATURE ]
 #include<iostream>
 using namespace std;
 int main()
