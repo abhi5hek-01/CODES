@@ -113,6 +113,7 @@ int main()
     int soln=lastoccurence(arr,size,target);
     if(soln==-1)
     {
+// if found then ;
         cout<<"not found";
     }
     else{
