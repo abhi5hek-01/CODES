@@ -65,4 +65,35 @@ int main()
 }
 
 
+//! Q.2--> PRINT THE REVERSE OF STRING
+#include <iostream>
+// cstring header file for use inbuilt function;
+#include<cstring>
+using namespace std;
+void reverse(char ch[],int temp)
+{
+    // here , int temp is length of string ( not size of string)
+    int i=0,j=temp-1;
+    while(i<=j)
+        {
+            swap(ch[i],ch[j]);
+            i++;
+            j--;
+        }
+     cout<<"after reverse : "<<ch<<endl;
+}
+int main() {
+    char ch[100];
+    int size=100;
+    cin.getline(ch,100);
+    cout<<"before reverse : "<<ch<<endl;
+    int temp=strlen(ch);
+    cout<<"the lenght of string is : "<<temp<<endl;
+    // pass 2 things--> 1.->character array 2.->length of string ( not size of string)
+    reverse(ch,temp);
+    return 0;
+}
+
+
+
 
