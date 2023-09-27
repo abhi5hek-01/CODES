@@ -156,4 +156,44 @@ int main()
 }
 
 
+//! Q.5--> CHECK PALINDROME
+#include<iostream>
+#include<cstring>
+using namespace std;
+bool checkpalindrome(char ch[],int n)
+// int n--> length of character array ( not size )
+{
+    int i=0,j=n-1;
+    while(i<=j)
+        {
+            if(ch[i]!=ch[j])
+            {
+             return false;
+            }
+            else{
+             i++,j--;
+            }
+        }
+    return true;  
+}
+int main()
+{
+    char ch[100];
+    int size=100;
+    cin.getline(ch,100);
+    cout<<"before : "<<ch<<endl;
+    int temp=strlen(ch);
+    cout<<"length of string is : "<<temp<<endl;
+    bool isthis=checkpalindrome(ch,temp);
+    if(isthis)
+    {
+    cout<<"yes , it is valid palindrome"<<endl;
+    }
+    else{
+    cout<<"not a palindrome";
+    }
+    return 0;
+}
+
+
 
