@@ -16,8 +16,53 @@ int main()
     {
         cout<<" at INDEX "<<i<<"-->"<<ch[i]<<endl;
     } 
-    int temp=ch[8];
+    char temp=ch[8];
     int value=(int)temp;
     cout<<" the value present is at index : "<<value;
   return 0;
 }
+
+
+//! Q.1--> FIND THE LENGHT OF STRING
+#include<iostream>
+#include<string.h>
+using namespace std;
+int findlenght(char ch[],int size)
+// --->>>using while loop;
+{
+  int index=0;
+  while(ch[index]!='\0')
+  {
+    index++;
+  }
+  return index;
+}
+// // --->>>using for loop
+// {
+//   int length=0;
+//   for(int i=0;i<size;i++)
+//   {
+//     if(ch[i]=='\0')
+//     {
+//       // ruk jao
+//       break;
+//     }
+//     else{
+//       length++;
+//     }   
+//   }
+//   return length;
+// }
+int main()
+{
+  char ch[100];
+  // cin>>ch;
+  cin.getline(ch,100);
+  int len=findlenght(ch,100);
+  cout<<"the lenght is : "<<len<<endl;
+  cout<<"printing the length : "<<strlen(ch);
+  return 0;
+}
+
+
+
