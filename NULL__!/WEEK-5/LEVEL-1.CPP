@@ -124,5 +124,36 @@ int main()
 }
 
 
+//! Q.4--> REPLACE @ WITH SPACE
+#include<iostream>
+#include<cstring>
+using namespace std;
+void replacecharacter(char ch[],int temp)
+{
+    int currindex=0;
+    while(ch[currindex]!='\0')
+        {
+// check, if current index==@ then replace it with space otherwise index++;
+            if(ch[currindex]=='@')
+            {
+               ch[currindex]=' ';
+            }
+            else{
+             currindex++;
+            }
+        }
+}
+int main()
+{
+    char ch[100];
+    int size=100;
+    cin.getline(ch,100);
+    int temp= strlen(ch);
+    cout<<"before : "<<ch<<endl;
+    cout<<"length of string : "<<temp<<endl;
+    replacecharacter(ch,temp);
+    cout<<"after : "<<ch; 
+}
+
 
 
