@@ -66,6 +66,7 @@ int main()
 
 
 //! Q.2--> PRINT THE REVERSE OF STRING
+// //using 2 pointer approach
 #include <iostream>
 // cstring header file for use inbuilt function;
 #include<cstring>
@@ -92,6 +93,34 @@ int main() {
     // pass 2 things--> 1.->character array 2.->length of string ( not size of string)
     reverse(ch,temp);
     return 0;
+}
+
+
+//! Q.3--> CONVERT LOWERCASE TO UPPERCASE
+#include<iostream>
+#include<cstring>
+using namespace std;
+ void touppercase(char ch[],int temp){
+  for(int i=0;i<temp;i++)
+  {
+   char currentelement=ch[i];
+    if(ch[i]>='a'&&ch[i]<='z')
+    {
+     ch[i]=currentelement-'a'+'A';
+    }
+  }
+}
+int main()
+{
+  char ch[100];
+  int size=100;
+  cin.getline(ch,100);
+  int temp=strlen(ch);
+  cout<<"length of string is : "<<temp<<endl;
+  touppercase(ch,temp);
+  cout<<"after convert into uppercase : " ;
+  cout<<ch<<endl;
+  return 0;
 }
 
 
