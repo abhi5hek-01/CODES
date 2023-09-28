@@ -196,4 +196,32 @@ int main()
 }
 
 
+// ! STRINGS --> collection of characters { dyanmic in nature}
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+  string name;
+  // taking input in string
+  // cin>>name;
+  // printing the string
+
+  getline(cin,name);
+  cout<<" printing the name : "<< name<<endl;
+  cout<<" printing the first character : "<< name[0]<<endl;
+  // int index=0;
+  // while(name[index]!='\0')
+  // {
+  //   cout<<"at index -> "<<index<<" = "<< name[index]<<endl;
+  //   index++;
+  // }
+  // cout<<" at index --> 8"<<name[8]<<"=";
+  // int value=(int)name[8];
+  // cout<<value;
+}
+
+
+
 
