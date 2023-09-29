@@ -223,5 +223,66 @@ int main()
 }
 
 
+#include<iostream>
+using  namespace std;
+int main()
+{
+  string name;
+  cin>>name;
+  string yup=" ";
+  // to check , length of string 
+  cout<<" length of string : "<<name.length()<<endl;
+  // to check , is string empty or not
+  cout<<" length of string is : "<<yup.length()<<endl;
+  // to check , specfic position pe kya h ?
+  cout<<" at index 5 : -> "<<name.at(5)<<endl;
+  // to check , front  or 1st character of string
+  cout<<" front character of string is : "<<name.front()<<endl;
+  // to check , back or last character of string
+   cout<<" back character of string is : "<<name.back()<<endl;
+  // APPEND 2 string
+  string str1=" hey";
+  string str2=" everyone";
+  cout<<str1.append(str2)<<endl;
+  // ERASE A PART FROM STRING
+  string desc="cheems say hello to world";
+  cout<< desc.erase(6,10)<<endl;
+  // INSERT A STRING BETWEEN A STRNG
+  string petname="dogesh gupta";
+  string str3="kumar";
+  cout<<petname.insert(7,str3)<<endl;
+  // TO ADD ADITIONAL OR REMOVE A CHARACTER FROM STRING
+  string name1="abhishek";
+  cout<<name1<<endl;
+  name1.push_back('v');
+  cout<<name1<<endl;
+  name1.pop_back();
+  cout<<name1<<endl;
+  // TO FIND A STRING IN ANOTHER STRING
+  string music1=" sometime i think aboout u ";
+  string music2="think";
+  if(music1.find(music2)==string::npos)
+  {
+    cout<<" Not Found "<<endl;
+  }
+  else {
+   cout<<"Found"<<endl;
+  }
+  // TO COMPARE 2 STRING
+  string yes1="hazard";
+  string yes2="hazard";
+  if(yes1.compare(yes2)==0)
+  {
+    cout<<"matching"<<endl;
+  }
+  else{
+    cout<<"not matching"<<endl;
+  }
+  // TO GET A SUBSTRING
+  string get="open your notebook and dry run the code";
+  cout<<get.substr(10,8); 
+}
+
+
 
 
