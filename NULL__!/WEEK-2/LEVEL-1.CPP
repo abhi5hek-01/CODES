@@ -279,7 +279,7 @@ int main()
 //          *
 
 
-// ! Q.7-->  PRINTING FLIPPED SOLID DIAMOND
+// ! Q.7--> PRINTING FLIPPED SOLID DIAMOND
 #include<iostream>
 using namespace std;
 int main()
