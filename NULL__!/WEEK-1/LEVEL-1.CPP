@@ -19,7 +19,7 @@ using namespace std;
 int main()
 {
     int variable;
-    cout<<"enter the value in variable : ";
+    cout<<"enter the value in variable -: ";
     // take input by cin;
     cin>>variable;
     // print anything by cout
