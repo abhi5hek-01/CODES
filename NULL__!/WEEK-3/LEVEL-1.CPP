@@ -110,3 +110,28 @@ int main()
 }
 
 
+// ! Q.4 --> GET PAIRS IN AN ARRAY
+#include<iostream>
+using namespace std;
+void getpair(int arr[],int size)
+{
+    // int ans=0;
+    for(int i=0;i<size;i++)
+    {
+        for(int j=0;j<size;j++)
+        {
+           cout<<arr[i]<<" "<<arr[j]<<endl;
+        }        
+    }  
+}
+int main()
+{
+    int arr[]={10,20,30};
+    int size=3;
+    getpair(arr,size);
+    // cout<<"pairs are"<<getpair(arr,size);
+    return 0;
+}
+
+
+
