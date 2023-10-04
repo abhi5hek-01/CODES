@@ -87,3 +87,26 @@ int main()
     return 0;
 }
 
+
+// ! Q.3 --> FIND THE UNIQUE ELEMENT IN ARRAY
+#include <iostream>
+using namespace std;
+int getuniqueelement(int arr[],int n)
+{
+  int solution=0;
+  for(int i=0;i<n;i++)
+  {
+    solution=solution^arr[i];
+  }
+  return solution;
+}
+int main() 
+{
+   int arr[]={2,5,11,5,2,14,9,14,9};
+   int n=9;
+   getuniqueelement(arr,n);
+   cout<<"unique element will be="<<getuniqueelement(arr,n);
+    return 0;
+}
+
+
