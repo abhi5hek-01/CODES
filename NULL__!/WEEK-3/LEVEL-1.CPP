@@ -44,3 +44,23 @@ int main()
     }
     return 0;
 }
+
+
+// ! Q-1 --> PRINT THE DOUBLE OF ARRAY
+#include<iostream>
+using namespace std;
+int main()
+{
+    int arr[10];
+    int n=10;
+    for(int i=0;i<n;i++)
+    {
+        cout<<"enter the element at index"<<i<<endl;
+        cin>>arr[i];
+    }
+    for(int i=0;i<n;i++)
+    {
+        cout<< 2*arr[i]<<" ";
+    }
+    return 0;
+}
