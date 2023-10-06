@@ -96,7 +96,7 @@ int main() {
 }
 
 
-//! Q.3--> CONVERT LOWERCASE CHARACTER TO UPPERCASE
+//! Q.3--> CONVERT LOWERCASE CHARACTER TO UPPERCASE CHARACTER
 #include<iostream>
 #include<cstring>
 using namespace std;
