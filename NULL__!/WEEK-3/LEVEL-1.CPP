@@ -4,7 +4,7 @@
 using namespace std;
 int main() 
 {
-  // way to create an array
+  // way to create an array ;
     int arr[10];
     char ch[55];
     bool any[25];
