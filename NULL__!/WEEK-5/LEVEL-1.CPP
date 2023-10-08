@@ -90,7 +90,7 @@ int main() {
     cout<<"before reverse : "<<ch<<endl;
     int temp=strlen(ch);
     cout<<"the lenght of string is : "<<temp<<endl;
-    // pass 2 things--> 1.->character array 2.->length of string ( not size of string)
+    // pass 2 things--> 1.->character array 2.->length of string ( not size of string ) 
     reverse(ch,temp);
     return 0;
 }
