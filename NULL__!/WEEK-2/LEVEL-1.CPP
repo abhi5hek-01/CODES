@@ -47,7 +47,7 @@ int main()
         {
             cout<<" ";
         }
-        // another inner loop--> number of star
+        // another inner loop--> number of star ;
         for(int col=0;col<n-row;col++)
         {
             cout<<"* ";
