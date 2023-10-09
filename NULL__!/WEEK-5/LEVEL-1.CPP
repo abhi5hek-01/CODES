@@ -14,7 +14,7 @@ int main()
     //printing using loop;
     for(int i=0;i<=10;i++)
     {
-        cout<<" at INDEX "<<i<<"-->"<<ch[i]<<endl;
+        cout<<" at INDEX "<<i<<"--> "<<ch[i]<<endl;
     } 
     char temp=ch[8];
     int value=(int)temp;
