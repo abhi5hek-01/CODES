@@ -37,7 +37,7 @@ int findlenght(char ch[],int size)
   }
   return index;
 }
-// // --->>>using for loop
+// // --->>> using for loop
 // {
 //   int length=0;
 //   for(int i=0;i<size;i++)
