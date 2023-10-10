@@ -14,7 +14,7 @@ int main()
     //  way to find address of an array, using & and without it;
     cout<<&num<<endl;
     cout<<num<<endl;
-    //  way to find size of an array;
+    //  way to find size of an array
     cout<<sizeof(arr)<<endl;
     cout<<sizeof(ch)<<endl;
     cout<<sizeof(any)<<endl;
