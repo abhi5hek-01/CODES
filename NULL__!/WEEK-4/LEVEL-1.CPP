@@ -15,7 +15,7 @@ int binarysearch(int arr[],int n, int target)
             // 
             return mid;
         }
-        // agar element nahi mila mid pe, right me jao
+        // agar element nahi mila mid pe , right me jao
         else if (arr[mid]<target)
         {
             start=mid+1; 
