@@ -28,7 +28,7 @@ int main()
 #include<string.h>
 using namespace std;
 int findlenght(char ch[],int size)
-// --->>>using while loop;
+// --->>using while loop;
 {
   int index=0;
   while(ch[index]!='\0')
