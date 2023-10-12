@@ -245,7 +245,7 @@ int main()
         }
         for(int col=0;col<n-row-1;col++)
         {
-            // condition for star and inner space printing;
+            // condition for star and inner space printing ;
           if( col==0 || col==n-row-1-1)
           {          
             cout<<"* ";
