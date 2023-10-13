@@ -42,7 +42,7 @@ int main()
     cin>>n;
     for(int row=0;row<n;row++)
     {
-        // inner loop--> number of spaces
+        // inner loop--> number of spaces ;
         for(int col=0;col<row;col++)
         {
             cout<<" ";
