@@ -89,7 +89,7 @@ int main()
         }
         cout<<endl;
     }
-    // full pyramid+inverted full pyramid--> diamond
+    // full pyramid+inverted full pyramid --> diamond
     for(int row=0;row<n;row++)
     {
         // inner loop--> number of spaces
