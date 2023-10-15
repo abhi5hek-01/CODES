@@ -73,7 +73,7 @@ int main()
 using namespace std;
 void reverse(char ch[],int temp)
 {
-    // here , int temp is length of string ( not size of string)
+    // here , int temp is length of string ( not size of string )
     int i=0,j=temp-1;
     while(i<=j)
         {
