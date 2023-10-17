@@ -13,7 +13,7 @@ int main()
         {
             cout<<" ";
         }
-        // another loop for star print
+        // another loop for stars print
         for(int col=0;col<row+1;col++)
         {
             cout<<"* ";
