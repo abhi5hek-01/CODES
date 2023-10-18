@@ -68,7 +68,7 @@ int main()
 //! Q.2--> PRINT THE REVERSE OF STRING
 // //using 2 pointer approach
 #include <iostream>
-// cstring header file for use inbuilt function;
+// cstring header file for use inbuilt function ;
 #include<cstring>
 using namespace std;
 void reverse(char ch[],int temp)
