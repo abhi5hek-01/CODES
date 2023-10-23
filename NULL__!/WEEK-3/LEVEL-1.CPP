@@ -10,7 +10,7 @@ int main()
     long num[500];
     double as[900];
     cout<<"array created successfully"<<"\n";
-    //  way to find address of an array, using & and without it;
+    //  way to find address of an array, using & and without it;;
     cout<<&num<<endl;
     cout<<num<<endl;
     //  way to find size of an array
