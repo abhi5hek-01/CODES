@@ -40,3 +40,21 @@ int main()
     cout<<fact(n);
     return 0;
 }
+
+
+// ! Q.3--> PRINT COUNTING FROM N TO 1
+#include<iostream>
+using namespace std;
+void printcount(int n)
+{
+    if(n==0) return;
+    cout<<n<<"\n";
+    printcount(n-1);
+}
+int main()
+{
+    int n;
+    cin>>n;
+    printcount(n);
+    return 0;
+}
