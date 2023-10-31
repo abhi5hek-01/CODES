@@ -1,4 +1,4 @@
-//! Q.1--> FIND FACTORIAL USING RECURSION ;
+//! Q.1--> FIND FACTORIAL USING RECURSION ;;
 #include<iostream>
 using namespace std;
 int fact(int n)
