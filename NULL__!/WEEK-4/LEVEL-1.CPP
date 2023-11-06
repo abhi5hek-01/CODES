@@ -1,4 +1,4 @@
-// ! BINARY SEARCH ;
+// ! BINARY SEARCH 
 
 #include<iostream>
 using namespace std;
